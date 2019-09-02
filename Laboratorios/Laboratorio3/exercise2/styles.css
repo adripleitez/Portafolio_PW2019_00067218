@@ -100,7 +100,7 @@ main .logos
     background: whitesmoke;
     border: 1px solid black;
     border-radius: 100%;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .logos>img:hover
@@ -125,4 +125,5 @@ footer>span
     text-decoration: underline;
     background: black;
     border-radius: 0.5em;
+    opacity: 0.7;
 }

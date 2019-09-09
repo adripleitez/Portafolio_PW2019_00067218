@@ -1,0 +1,29 @@
+$dark: #000000;
+$white: #f5f5f5;
+$color-primary: #673AB7;
+$color-secondary: #D81B60;
+$color-tertiary: #3F51B5;
+
+@mixin set-dimensions ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+body
+{
+    @include set-dimensions(auto,100vh);
+    box-sizing: border-box;
+
+    overflow: hidden;
+    background-image: url("https://www.hdwallpapers.in/download/game_of_thrones_tyrion_and_drogon-1366x768.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    padding: 1em 5%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
